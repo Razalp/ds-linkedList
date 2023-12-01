@@ -10,7 +10,7 @@ class linkedList{
         this.size=0;
     }
     isEmpty(){
-        return this.size===0
+        return this.size===0;
     }
     getSize(){
         return this.size;
