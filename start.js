@@ -18,7 +18,7 @@ class linkedList{
     prepend(value){
         const nweNode=new Node(value);
         if(this.isEmpty()){
-            this.head=nweNode
+            this.head=nweNode;
         }else{
             nweNode.next=this.head;
             this.head=nweNode
